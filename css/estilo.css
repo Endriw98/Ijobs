@@ -184,7 +184,7 @@ button:hover{
     height: 100%;
     background-color: rgb(35, 35, 35);
 }
-#p{
+p{
     width: auto;
     height: auto;
     padding: 5px;
