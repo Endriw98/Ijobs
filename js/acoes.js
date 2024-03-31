@@ -92,12 +92,23 @@ function info(){
 function esconderInfo(){
 
 }
-
+var i = 0;
 function send(){
     var valor = inputin.value;
+    var text = document.getElementById('text');
     texto.style.display = 'block';
     texto.innerHTML = valor;
     inputin.value = "";
+    
+    if(i==0){
+        texto.style.display = 'block';
+        texto.innerHTML = valor;
+        inputin.value = "";
+    }else if(i==i+1){
+        text.innerHTML = "<p>"+valor+"</p>";
+        inputin.value = "";
+    }
+    i++;
     
 }
 

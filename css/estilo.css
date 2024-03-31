@@ -185,7 +185,7 @@ button:hover{
     background-color: rgb(35, 35, 35);
 }
 #p{
-    width: 40%;
+    width: auto;
     height: auto;
     padding: 5px;
     float: left;
