@@ -4,6 +4,7 @@ var op = document.getElementById('op');
 var msg = document.getElementById('msg');
 var inputin = document.getElementById('input');
 var enviar = document.getElementById('Enviar');
+var texto = document.getElementById('p');
 
 var i = false;
 function evento(){
@@ -94,8 +95,10 @@ function esconderInfo(){
 
 function send(){
     var valor = inputin.value;
-    alert('O valor é '+valor);
+    texto.style.display = 'block';
+    texto.innerHTML = valor;
     inputin.value = "";
+    
 }
 
 
