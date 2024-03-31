@@ -83,7 +83,7 @@ menu2.addEventListener('click', ()=>
 
 function config(){
     
-    alert('O valor é '+valor);
+    alert('Bem vindo(a) '+valor);
 }
 function info(){
     alert("Botão Info clicado!");
